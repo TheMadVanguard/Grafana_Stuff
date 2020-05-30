@@ -1,0 +1,15 @@
+version: '3'
+services:
+  veeam_influxdb:
+    hostname: veeam_influxdb
+    container_name: veeam_influxdb
+    image: influxdb
+    ports:
+      - 8086:8086
+    environment:
+      - INFLUXDB_DB=veeam
+      - INFLUXDB_ADMIN_USER=veeam
+      - INFLUXDB_ADMIN_PASSWORD=veeam
+    volumes:
+      - /DATA_LOCATION:/var/lib/influxdb
+    restart: unless-stopped
