@@ -9,3 +9,5 @@
 <img src=./Veeam/Office_365/Veeam_O365_Grafana_Dashboard.PNG.png>
 
 <h1><a href=https://github.com/TheMadVanguard/Grafana_Stuff/wiki#collecting-smartthings-data-in-influxdb>Collecting SmartThings data in InfluxDB</a></h1>
+
+<img src=./SmartThings/SmartThings.PNG>
